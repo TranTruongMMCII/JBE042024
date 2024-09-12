@@ -1,0 +1,22 @@
+jwt:
+  duration: 604800
+  secret: aGVsbG8gd29ybGQsIHNlY3JldCBrZXk=aGVsbG8gd29ybGQsIHNlY3JldCBrZXk=aGVsbG8gd29ybGQsIHNlY3JldCBrZXk=aGVsbG8gd29ybGQsIHNlY3JldCBrZXk=aGVsbG8gd29ybGQsIHNlY3JldCBrZXk=aGVsbG8gd29ybGQsIHNlY3JldCBrZXk=
+server:
+  port: 8081
+spring:
+  application:
+    name: java-backend-2024-04
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/jbe042024?createDatabaseIfNotExist=true
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    operations-sorter: method
