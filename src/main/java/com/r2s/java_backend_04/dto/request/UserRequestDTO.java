@@ -28,7 +28,7 @@ import lombok.Setter;
 public class UserRequestDTO {
 
 	@Schema(description = "ten cua user ne", title = "name")
-	@NotBlank(message = "ten user lam on khong duoc de trong, test tets")
+	@NotBlank(message = "ten user lam on khong duoc de trong, cho nay test branch test")
 	private String name;
 
 	@Min(value = 18L, message = "tuoi tu 18 tro len")
